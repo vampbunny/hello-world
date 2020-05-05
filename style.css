@@ -1,0 +1,91 @@
+  hi {
+color:crimson;
+text-align: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover{
+  background-color:midnightblue;
+}
+
+.REVAMP{
+  color: honeydew;
+  background-color: lightsalmon;
+  width: 63%;
+  height: auto;
+  margin: 30px;
+  padding: 100px;
+  overflow-y: scroll;
+}
+
+div{
+  color: darkslategray;
+  }
+  ul{
+    color: darkred
+  }
+  .ol{
+    font-style: italic;
+    color: orange;
+  }
+  #tr{
+    font-size: 12px;
+    color: teal
+  }
+
+  h2{
+    color:peru;
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 50%
+  }
+  th{
+    background-color: lightsalmon;
+  }
+   th, td{
+     border:1px solid black;
+     padding: 35px;
+     text-align: center;
+   }
+table{
+  margin-top: -50%
+}
+
+header{
+  overflow:hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+footer nav{
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+
+}
+
+nav ul li a{
+  font-family: lato;
+  font-weight: 400;
+  font-size: 14px;
+  color:lightsalmon;
+}
+
+@media (min-width:600px) {
+  p{font-size: 1.25rem;
+  }
+
+body{
+  display:flex;
+  flex-direction: column;
+}
+footer{
+  height: 50px;
+  background: darkslategray;
+  margin-top: 50%
+}

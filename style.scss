@@ -1,0 +1,60 @@
+hi {
+color:$color;
+text-align: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+$color:teal{
+  color:$color
+}
+
+button:hover{
+  background-color: $color;
+}
+.REVAMP{
+  color: white;
+  background-color: $color;
+  width: 63%;
+  height: auto;
+  margin: 30px;
+  padding: 100px;
+  overflow-y: scroll;
+}
+
+div{
+  color: blue;
+  }
+  ul{
+    color: green
+  }
+  .ol{
+    font-style: italic;
+    color: orange;
+  }
+  #tr{
+    font-size: 12px;
+    color: teal
+  }
+
+  h2{
+    color:red;
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 50%
+  }
+  th{
+    background-color: lightgray;
+  }
+   th, td{
+     border:1px solid black;
+     padding: 5px;
+     text-align: center;
+   }
+
+
+@media (min-width:600px) {
+  p{font-size: 1.25rem;
+  }
+}
